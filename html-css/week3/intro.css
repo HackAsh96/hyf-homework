@@ -1,0 +1,171 @@
+  @import url('https://fonts.googleapis.com/css?family=Montserrat');
+  @import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+  body{
+  background: rgb(255, 244, 233);
+  margin: 0;
+  padding: 40px;
+  height: 100vh;
+  box-sizing: border-box;
+  min-width: 300px;
+  overflow: hidden;
+  position: relative;
+  display: block;
+  }
+  .links {
+  position: relative;
+  width: 100%;
+  height: 100%;
+
+  }
+  @keyframes effect {
+  from {
+  opacity: 0;
+  transform: translate3d(100%, 0, 0);
+  }
+
+  to {
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
+  }
+  }
+
+  .links p {
+  right: 0;
+  font-family: 'Montserrat';
+  font-weight: bold;
+  font-size: 12px;
+  color: rgb(255, 152, 94);
+  position: absolute;
+  bottom: 0;
+  margin: 0;
+  animation: effect 1.5s ease-in-out ;
+  }
+  .links p a {
+  display: block;
+  float: right;
+  margin: -17px -25px 0 8px;
+  font-family: 'Indie Flower', cursive;
+  font-size: 33px;
+  }
+  .links p a:hover{
+  transform: scale(1.1);
+  color:rgb(255, 104, 44);
+  transition: all .4s ease-in-out;
+  }
+  a{
+  text-decoration: none;
+  color: inherit;
+  }
+  .main-logo img{
+  width: 130px;
+  height: 120px;
+  float: left;
+  margin: -10px;
+  animation: effect 1.5s ease-in-out ;
+  }
+  .main-logo img:hover{
+  transform: scale(1.1);
+  box-shadow: 0px 5px 5px 0px grey;
+  transition: all .6s  ease-in-out;
+  border-radius: 40px;
+  }
+  /*-------SHOEs CONTEINER----------*/
+  .shoes-cont{
+  display: flex;
+  top: 20%;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin:0px ;
+  position: relative;
+  justify-content: space-between;
+  animation: effect 1.5s ease-in-out ;
+  }
+  /*-------SHOE1----------*/
+  .shoe1{
+  max-width: 250px;
+  margin-left: 100px;
+  }
+  .shoe1 img{
+  width: 250px;
+  }
+  .shoe1 img:hover{
+    transform: scale(1.7);
+    transition: all .6s  ease-in-out;
+  }
+  /*-------SHOE2----------*/
+  .shoe2{
+  max-width: 250px;
+  }
+  .shoe2 img{
+  width: 250px;
+  }
+  .shoe2 img:hover{
+    transform: scale(1.7);
+    transition: all .6s  ease-in-out;
+  }
+  /*-------SHOE3----------*/
+  .shoe3{
+  max-width: 250px;
+  margin-right: 100px;
+  }
+  .shoe3 img{
+  width: 300px;
+  }
+  .shoe3 img:hover{
+    transform: scale(1.7);
+    transition: all .6s  ease-in-out;
+  }
+  /*--------------------------------------  */
+  .top-right {
+  float: right;
+  animation: effect 1.5s ease-in-out ;
+  }
+  button.about {
+  background-color: transparent;
+  color:rgb(255, 104, 44);
+  font-family: 'Montserrat';
+  font-weight: 700;
+  font-size: 20px;
+  position: relative;
+  top: 31px;
+  margin-right: 80px;
+  border: none;
+  cursor: pointer;
+  }
+  .dropdown {
+  display: none;
+  position: absolute;
+  top:55px;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+
+  }
+  .dropdown img{
+  float: right;
+  width: 40px;
+  margin-top: -38px;
+  }
+  .dropdown a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  font-family: 'Montserrat';
+  font-weight: 700;
+  }
+  .dropdown a:hover {
+  background-color:rgba(191, 125, 99, .1);
+  }
+
+  .top-right:hover .dropdown {
+  display: block;
+  }
+
+  .top-right:hover .about {
+  transform: scale(1.1);
+  color:rgb(255, 104, 44);
+  }

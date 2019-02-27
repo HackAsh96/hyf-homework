@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <script async src="main.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+  <title>User Phone Call</title>
+</head>
+<body>
+  <div id="phoneScreen">
+    <i class="fas fa-phone drill"></i>
+    <i class="fas fa-phone-slash noDrill"></i>
+    <span id="text"></span>
+  </div>
+  <div id="container">
+  <input type="text" value="" placeholder="Username" id="user">
+  <input  type="number" min="0" value="" placeholder="Age" id="age">
+  <input  type="number" min="0" value="" placeholder="Telephone" id="phone">
+  <div id="containerBtn">
+    <button onclick="addContact()" id="addContact"><i class="fas fa-user-plus"></i></button>
+    <button id="call" onclick="noContact()"><i class="fas fa-phone"></i></button>
+  </div>
+  </div>
+</body>
+</html>

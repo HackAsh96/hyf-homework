@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower|Gloria+Hallelujah');
+*{
+	margin:0;
+    padding:0;
+}
+body{
+    background:#C2EEE4;
+}
+#myBooks{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  position: absolute;
+  top: 30%;
+
+}
+h1{
+  text-align: center;
+  font-family: 'Gloria Hallelujah', cursive;
+  font-weight: bolder;
+  color: white;
+  font-size: 40px;
+  text-shadow:15px 5px 10px #166C60;
+}
+h2 {
+  color: #007464;
+  font-size: 35px;
+  font-family: 'Gloria Hallelujah', cursive;
+}
+h6{
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+  font-weight: bolder;
+  color: white;
+  font-size: 17px;
+  padding: 10px;
+  text-shadow:15px 5px 10px #166C60;
+}
+li{
+  list-style-type: none;
+  width: 250px;;
+  flex-direction:row;
+  box-sizing:border-box;
+  background-color: #94CFC7;
+  border: 2px inset #166C60;
+  margin:20px;
+}
+ul{
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  padding-left: 30px;
+}
+p{
+  font-weight: bold;
+  font-size: 20px;
+  font-family: 'Indie Flower', cursive;
+  color: #00A48D;
+}
+.title{
+    text-transform: uppercase;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 15px;
+    background:rgb(218, 129, 27);
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    background-color: #69CCBE;
+}
+img{
+  width: 120px;
+  height: 150px;
+  padding: 10px;
+}
+img:hover{
+  transform: scale(1.1);
+
+}

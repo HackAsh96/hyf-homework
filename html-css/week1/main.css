@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css?family=Sacramento');
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC');
+body{
+ background:url(https://pixinvent.com/apex-angular-4-bootstrap-admin-template/html-demo-1/app-assets/img/photos/14.jpg) no-repeat center fixed;
+  background-size:cover;
+}
+h1{
+  font-family: 'Sacramento', cursive;
+  font-size:7vw;
+  text-align:center;
+  margin-top:0;
+  color:white;
+  text-shadow: 0px 10px 15px rgb(0,0,0);
+}
+p{
+  margin:0;
+  color:black;
+  font-family: 'Amatic SC', sans-serif;
+  font-size:2.5vw;
+  font-weight:bold;
+  
+}
+#badr{
+  width:15vw;
+  border-radius:20px;
+  margin-bottom:4vw;
+  margin-left:5%;
+}
+#electronic{
+  width:20vw;
+  border-radius:20px;
+  margin-bottom:4vw;
+  margin-left:6%;
+}
+#code{
+  width:18vw;
+  border-radius:20px;
+  margin-bottom:4vw;
+  margin-left:4%;
+}
+#ball{
+  width:15vw;
+  border-radius:20px;
+  margin-bottom:4vw;
+  margin-left:7%;
+}
+table{
+  table-layout:fixed;
+  width:100%;
+}
+strong{
+  color:white;
+}
+th{
+  background-color:rgba(255, 0, 102,0.4);
+  border-radius:10px;
+  font-family: 'Amatic SC', cursive;
+  color:rgb(51, 0, 37);
+  font-size:4.5vw;
+  text-shadow: 0px 1px 7px rgb(255,255,255);
+}
+#footer{
+  margin-top:50%;
+  text-align:center;
+}
+.navigation-bar {
+  list-style-type:none;
+  text-align:center;
+  font-family:'Amatic SC', cursive;
+  font-weight:bold;
+  background-color:rgba(255, 0, 102,0.2);
+}
+li {
+  display:inline-block;
+}
+li a {
+  color: white;
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top:5px;
+  padding-bottom:5px;
+  text-decoration: none;
+  font-size: 3.5vw;
+  letter-spacing: 3px;
+  text-transform: uppercase;  
+}
+li a:hover {
+  background-color:rgb(199, 116, 120);
+}
+#in-footer{
+  text-align:center;
+  margin-top:30px;
+  margin-bottom:30px;
+}
+#logo-face{
+  width:4vw;
+}
+#logo-insta{
+  width:4vw;
+}
+#logo-GH{
+  width:4vw;
+}
+#logo-CP{
+  width:4vw;
+}
+#only-one{
+  color: white;
+  font-size:2.5vw;
+  font-weight:bold;
+  }
+#footer-link {
+  color:rgb(200,0,0);
+  font-family:'Amatic SC',cursive;
+  text-decoration:none;
+  text-shadow: 0px 0px 15px red;
+  font-weight: bold;
+  font-size:2.5vw;
+}

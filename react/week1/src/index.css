@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css?family=Cairo|Raleway|Inconsolata');
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(239, 214, 133);
+}
+#listTableStyle{
+  display: inline-block;
+  height: 400px;
+  background-image: url('https://www.designcuts.com/wp-content/uploads/2018/03/diverse-textures-and-patterns-collection-011-jj7.jpg');
+  box-shadow: 0 0 50px  rgb(123, 101, 56);
+}
+#mainContainer{
+  text-align: center;
+}
+#listTableStyle td{
+  padding: 10px;
+  font-size: 20px;
+  font-family: 'Raleway', sans-serif;
+}
+#listTableStyle th{
+  padding: 10px;
+  font-size: 20px;
+  font-family: 'Inconsolata', monospace;
+}
+#headerStyle h1{
+  font-family: 'Cairo', sans-serif;
+  font-size: 50px;
+  margin: 0;
+}
+#headerStyle p{
+  width: auto;
+  font-family: 'Cairo', sans-serif;
+  font-size: 30px;
+  font-style: oblique;
+  margin-top: 0;
+}
+span{
+  color: red;
+  font-weight: bolder;
+  text-decoration: line-through;
+}

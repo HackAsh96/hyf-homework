@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+*{
+  font-family:'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+/*-------------------------FLOATS---------------------------*/
+#grid-floats{
+  text-align:center;
+  overflow:hidden;
+}
+
+#grid-floats li{
+  float: left;
+  background-color:rgba(217, 135, 45, 0.4);
+}
+#grid-floats .grid-item:nth-child(odd):nth-child(-n+8):hover{
+  background-color:rgb(247, 129, 0);
+  }
+#grid-floats .grid-item:nth-child(even):nth-child(n+8):nth-child(-n+14):hover{
+    background-color:rgb(247, 129, 0);
+    }
+/*---------------GENERAL ITEM CONTENTS----------------------*/
+li{
+  color: black;
+  width:24%;
+  height: 22vw;
+  justify-content:space-around;
+  margin: 0.5%;
+  border-radius:10px;
+  box-sizing: border-box;
+}
+li{
+  list-style-type: none;
+}
+li:nth-child(1){
+  width: 49%;
+}
+h1{
+  text-align:center;
+  background-color:rgb(195, 210, 129);
+}
+h2{
+  text-align:center;
+  margin:5px;
+}
+h3{
+  text-align: center;
+  font-size: 1.5vw;
+}
+img{
+  width: 15vw;
+}
+p{
+  text-align: justify;
+  padding:1px;
+  font-size: 0.9vw;
+}
+/*-----------------------FLEXBOX-----*/
+
+#grid-flex li{
+  background-color:rgba(255, 145, 122, 0.4);
+  color: black;
+}
+#grid-flex{
+  text-align:center;
+  display: flex;
+  flex-wrap: wrap;
+}
+#grid-flex .grid-item:nth-child(odd):nth-child(-n+8):hover{
+  background-color:rgb(186, 32, 0);
+  }
+#grid-flex .grid-item:nth-child(even):nth-child(n+8):nth-child(-n+14):hover{
+    background-color:rgb(186, 32, 0);
+    }
+/*--------------TABLETS------------ */
+@media only screen and (max-width: 768px){
+  ul li:nth-child(2){
+    width: 49%;
+  }
+  ul li:nth-child(n+3){
+    width: 32.3%;
+  }
+}
+/*----------------PHONES---------------------  */
+@media only screen and (max-width: 375px){
+  ul li:nth-child(1){
+    width: 99%;
+  }
+  ul li:nth-child(n+2){
+    width: 49%;
+  }
+}
