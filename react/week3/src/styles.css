@@ -1,0 +1,43 @@
+body {
+  text-align: center;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+.todo-item--done {
+  text-decoration: line-through;
+  color: red;
+}
+ul {
+  padding: 0;
+}
+li {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+  background: lightblue;
+  box-shadow: 0 0 10px rgba(0, 0, 255, 0.5);
+}
+h1,
+p {
+  font-family: monospace;
+  color: green;
+  font-style: italic;
+  margin-bottom: 20px;
+}
+span {
+  font-family: sans-serif;
+  font-weight: bold;
+  margin: 10px;
+}
+input[type="text"] {
+  margin: 3px;
+  box-shadow: 0 0 1px rgb(0, 0, 0, 0.5);
+  border: outset;
+}
+input::placeholder {
+  text-align: center;
+}
+button {
+}
