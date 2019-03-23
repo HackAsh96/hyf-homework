@@ -1,0 +1,31 @@
+.search-input {
+  font-size: 20px;
+}
+body {
+  text-align: center;
+  background: lightblue;
+}
+ul {
+  padding: 0;
+}
+li {
+  list-style-type: none;
+  border: outset 2px hsla(240, 97%, 65%, 0.493);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px;
+  text-transform: capitalize;
+  transition: 0.5s;
+  padding-left: 15%;
+  padding-right: 15%;
+}
+li:hover {
+  transform: scale(1.01);
+  background: pink;
+  cursor: pointer;
+}
+img {
+  height: 50px;
+  width: 50px;
+}
